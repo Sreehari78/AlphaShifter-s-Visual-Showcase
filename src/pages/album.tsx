@@ -8,7 +8,7 @@ import ComposingUrl from "../../public/assets/images/Composing.png";
 const album = () => {
   return (
     <div className='mt-1 p-20'>
-      <div className='flex justify-evenly align-middle flex-wrap gap-20'>
+      <div className='flex justify-center align-middle flex-wrap gap-20'>
         <Album
           xAxixInitialValue='0%'
           yAxixInitialValue='-100%'
