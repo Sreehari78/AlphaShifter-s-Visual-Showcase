@@ -137,7 +137,7 @@ const About = () => {
                           width={50}
                           height={50}
                           src={LightroomIcon}
-                          className='bg-white'
+                          className='bg-white rounded-lg'
                           alt='Lightroom icon'
                         />
                         Adobe Lightroom
