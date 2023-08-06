@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Navbax = () => {
   return (
-    <nav className='flex justify-between mt-6 h-[3vh] ml-6'>
-      <div className='flex flex-1 items-center gap-8'>Logo</div>
+    <nav className='flex mt-6 h-[3vh] ml-6 relative justify-around'>
+      <div className='flex lg:flex-1 items-center'>Logo</div>
       <div className='flex flex-1 items-center'>
         <div className='flex-1'>
-          <ul className='flex gap-16 list-none justify-evenly'>
+          <ul className='flex list-none justify-evenly'>
             <li>
               <Link href='/' className='nav-list'>
                 Home
@@ -24,7 +24,7 @@ const Navbax = () => {
               </Link>
             </li>
             <li>
-              <Link href='/photography' className='nav-list'>
+              <Link href='/contact' className='nav-list'>
                 Contact
               </Link>
             </li>

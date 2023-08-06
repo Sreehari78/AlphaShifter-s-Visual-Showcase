@@ -92,7 +92,7 @@ const About = () => {
               }
               transition={{ duration: 1 }}
               viewport={{ once: true }}
-              className='bg-white'
+              className='bg-white text-white'
             />
             <div className='flex gap-8'>
               <div className='flex flex-col gap-8'>
